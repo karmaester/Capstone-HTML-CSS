@@ -1,1 +1,10 @@
-@import "meyers-reset"
+@import "reset";
+
+//Variables
+
+$dark: #383838;
+
+header {
+  background: $dark;
+  height: 8vh;
+}
