@@ -13,22 +13,29 @@
     <link
       rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <title>Capstone</title>
   </head>
   <body>
     <header class="w-100 bg-my-dark d-flex align-content-center">
       <nav class="w-100 d-flex align-content-center">
         <div
-          class="left w-75 d-flex justify-content-between align-content-center"
+          class="left w-md-75 w-sm-100 d-flex justify-content-between align-content-center"
         >
           <div class="logo-header">
             <img src="./images/linear-logo.png" alt="..." />
           </div>
-          <ul
-            class="list-unstyled d-flex w-75 justify-content-between align-content-center"
-          >
-            <li class="d-flex">
-              <a class="redish" href="#">
+          <ul class="list-unstyled d-flex w-75 align-items-center">
+            <li class="d-flex w-25 xs-center sm-between align-items-center">
+              <a
+                class="redish d-flex justify-content-between align-items-center"
+                href="#"
+              >
                 <svg
                   width="1em"
                   height="1em"
@@ -46,11 +53,13 @@
                     d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
                   />
                 </svg>
-                <span>HOME</span>
+                <span class="xs-none">HOME</span>
               </a>
             </li>
-            <li class="d-flex">
-              <a class="d-flex justify-content-between my-gray" href="#"
+            <li class="d-flex w-35 xs-center sm-between">
+              <a
+                class="d-flex justify-content-between align-items-center my-gray"
+                href="#"
                 ><svg
                   width="1em"
                   height="1em"
@@ -63,11 +72,13 @@
                     d="M0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm0 9a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5z"
                   />
                 </svg>
-                <span>COLLECTIONS</span>
+                <span class="xs-none">COLLECTIONS</span>
               </a>
             </li>
-            <li class="d-flex">
-              <a class="d-flex justify-content-between my-gray" href="#"
+            <li class="d-flex w-35 xs-center sm-between">
+              <a
+                class="d-flex justify-content-between my-gray align-items-center"
+                href="#"
                 ><svg
                   width="1em"
                   height="1em"
@@ -81,15 +92,34 @@
                     d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
                   />
                 </svg>
-                <span>PURCHASE LIST</span></a
+                <span class="xs-none">PURCHASE LIST</span></a
               >
             </li>
             <li>
-              <button href="#" class="bg-redish text-white">
+              <button href="#" class="bg-redish text-white rounded">
                 Search
               </button>
             </li>
           </ul>
+        </div>
+        <div
+          class="user d-none d-md-flex align-items-center w-25 justify-content-center w-sm-15"
+        >
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-bell my-gray"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z" />
+            <path
+              fill-rule="evenodd"
+              d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"
+            />
+          </svg>
+          <span class="text-white ml-2">Karmaester</span>
         </div>
       </nav>
     </header>
@@ -129,7 +159,7 @@
             <img src="./images/logo png arepa rellena.png" alt="..." />
           </div>
           <div class="search w-100 d-flex justify-content-center">
-            <form class="d-flex w-50 justify-content-around" action="...">
+            <form class="d-flex w-65 justify-content-around" action="...">
               <select class="form-control rounded-0 w-25 m-1">
                 <option> Puerto Montt</option>
                 <option> Puerto Varas</option>
@@ -143,12 +173,50 @@
                 type="text"
                 placeholder="Quiero comer..."
               />
+              <button href="#" class="my-gray bg-my-dark search-btn m-1">
+                Search
+              </button>
             </form>
-            <button href="#" class="my-gray bg-my-dark search-btn m-1">
-              Search
-            </button>
           </div>
         </div>
+      </div>
+      <div
+        class="hot-ads w-100 d-flex justify-content-around align-items-center vh-50 bg-light"
+      >
+        <a class="arrow-left arrow redish font-weight-bold fs-1-5">&lt;</a>
+        <div class="row w-65">
+          <h2 class="my-gray w-100 mb-4 fs-1">HOT ADS</h2>
+          <div class="col-4 p-0 relative vh-35">
+            <img
+              src="./images/2020-09-10 (22).png"
+              class="vh-35 mw-100 float-right"
+              alt="..."
+            />
+            <div
+              class="arrows absolute bg-my-dark d-flex justify-content-around align-items-center"
+            >
+              <a class="redish font-weight-bold" href="#">&lt;</a
+              ><a class="redish font-weight-bold" href="#">&gt;</a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="description">
+              <h5 class="redish font-weight-bold mt-0 fs-1-5">
+                Venezuelan empanadas
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="xs-none">
+                  Eius, temporibus? Repellat rem autem ducimus aspernatur
+                  pariatur sit ipsum dolore molestiae? Deserunt commodi atque ab
+                  adipisci corrupti alias esse! Mollitia, sint!</span
+                >
+              </p>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <a class="arrow-right arrow redish font-weight-bold fs-1-5">&gt;</a>
       </div>
     </main>
     <footer></footer>

@@ -7,9 +7,40 @@ $gray: #888;
 $redish: #d35266;
 
 //Global clases
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-1-5 {
+  font-size: 1.5rem;
+}
+
+.mw-100 {
+  max-width: 100%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.vh-50 {
+  height: 50vh;
+}
 
 .vh-40 {
   height: 40vh;
+}
+
+.vh-35 {
+  height: 35vh;
 }
 
 .relative {
@@ -38,7 +69,12 @@ $redish: #d35266;
 
 // Sections
 body {
-  font-family: GothamPro, "Helvetica neue", sans-serif;
+  font-family: GothamPro, "Helvetica neue", sans-serif !important;
+
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 header {
@@ -49,12 +85,27 @@ header {
   }
 
   .left {
-    padding: 0 4vw 0;
+    padding: 0 3vw 0;
+
+    ul {
+      margin-bottom: 0;
+    }
 
     li {
-      font-size: 3vh;
-      width: 6vw;
+      font-size: 1rem;
+
+      a span {
+        margin-left: 4px;
+      }
     }
+
+    button {
+      border: 2px solid $redish;
+    }
+  }
+
+  .user {
+    font-size: 3vh;
   }
 }
 
@@ -80,7 +131,7 @@ main {
     margin-top: 3vh;
 
     .search-btn {
-      width: 10vw;
+      width: 15vh;
       border: 2px solid $dark;
       background: $dark;
 
@@ -88,5 +139,53 @@ main {
         background: $redish;
       }
     }
+  }
+
+  .arrows {
+    right: 0;
+    bottom: 0;
+    width: 5rem;
+    height: 5vh;
+    font-size: 2rem;
+  }
+
+  .arrow {
+    background: white;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid $gray;
+  }
+}
+
+// Media Queries
+@media (max-width: 767px) {
+  .xs-none {
+    display: none;
+  }
+
+  .xs-center {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .sm-between {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1023px) {
+  .w-sm-100 {
+    width: 100%;
+  }
+
+  .w-sm-15 {
+    width: 15%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .w-md-75 {
+    width: 75%;
   }
 }
