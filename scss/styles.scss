@@ -3,8 +3,90 @@
 //Variables
 
 $dark: #383838;
+$gray: #888;
+$redish: #d35266;
+
+//Global clases
+
+.vh-40 {
+  height: 40vh;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.redish {
+  color: $redish;
+}
+
+.bg-redish {
+  background-color: $redish;
+}
+
+.my-gray {
+  color: $gray;
+}
+
+.bg-my-dark {
+  background: $dark;
+}
+
+// Sections
+body {
+  font-family: GothamPro, "Helvetica neue", sans-serif;
+}
 
 header {
-  background: $dark;
   height: 8vh;
+
+  .logo-header img {
+    width: 30vh;
+  }
+
+  .left {
+    padding: 0 4vw 0;
+
+    li {
+      font-size: 3vh;
+      width: 6vw;
+    }
+  }
+}
+
+main {
+  .cover {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.5301470930168943) 17%,
+      rgba(8, 8, 15, 0.5553571770505077) 99%
+    );
+    top: 0;
+    left: 0;
+
+    .logo-main img {
+      width: 30vh;
+      margin-top: 2vh;
+    }
+  }
+
+  .search {
+    margin-top: 3vh;
+
+    .search-btn {
+      width: 10vw;
+      border: 2px solid $dark;
+      background: $dark;
+
+      &:hover {
+        background: $redish;
+      }
+    }
+  }
 }

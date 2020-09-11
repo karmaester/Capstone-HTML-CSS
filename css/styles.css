@@ -337,9 +337,72 @@ template {
   display: none;
 }
 
-header {
+.vh-40 {
+  height: 40vh;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.redish {
+  color: #d35266;
+}
+
+.bg-redish {
+  background-color: #d35266;
+}
+
+.my-gray {
+  color: #888;
+}
+
+.bg-my-dark {
   background: #383838;
+}
+
+body {
+  font-family: GothamPro, "Helvetica neue", sans-serif;
+}
+
+header {
   height: 8vh;
+}
+header .logo-header img {
+  width: 30vh;
+}
+header .left {
+  padding: 0 4vw 0;
+}
+header .left li {
+  font-size: 3vh;
+  width: 6vw;
+}
+
+main .cover {
+  background: black;
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.530147093) 17%, rgba(8, 8, 15, 0.5553571771) 99%);
+  top: 0;
+  left: 0;
+}
+main .cover .logo-main img {
+  width: 30vh;
+  margin-top: 2vh;
+}
+main .search {
+  margin-top: 3vh;
+}
+main .search .search-btn {
+  width: 10vw;
+  border: 2px solid #383838;
+  background: #383838;
+}
+main .search .search-btn:hover {
+  background: #d35266;
 }
 
 /*# sourceMappingURL=styles.css.map */
