@@ -464,6 +464,13 @@ main .arrow {
   border-radius: 50%;
   border: 1px solid #888;
 }
+main .articles {
+  background: #eff0f0;
+}
+
+footer .footer-logo {
+  width: 5rem;
+}
 
 @media (max-width: 767px) {
   .xs-none {

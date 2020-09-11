@@ -155,6 +155,15 @@ main {
     border-radius: 50%;
     border: 1px solid $gray;
   }
+  .articles {
+    background: #eff0f0;
+  }
+}
+
+footer {
+  .footer-logo {
+    width: 5rem;
+  }
 }
 
 // Media Queries
