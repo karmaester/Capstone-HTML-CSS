@@ -166,6 +166,11 @@ main {
 
   .articles {
     background: #eff0f0;
+
+    .plus {
+      padding: 1px 9px;
+      cursor: pointer;
+    }
   }
 }
 

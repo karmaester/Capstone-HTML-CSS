@@ -474,6 +474,10 @@ main .arrow {
 main .articles {
   background: #eff0f0;
 }
+main .articles .plus {
+  padding: 1px 9px;
+  cursor: pointer;
+}
 
 footer .footer-logo {
   width: 5rem;
