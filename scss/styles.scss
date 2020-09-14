@@ -1,4 +1,4 @@
-@import "reset";
+@import "_reset";
 
 //Variables
 
@@ -139,6 +139,10 @@ main {
         background: $redish;
       }
     }
+
+    .description .card-text {
+      margin-bottom: 0.5vh !important;
+    }
   }
 
   .arrows {
@@ -155,6 +159,7 @@ main {
     border-radius: 50%;
     border: 1px solid $gray;
   }
+
   .articles {
     background: #eff0f0;
   }

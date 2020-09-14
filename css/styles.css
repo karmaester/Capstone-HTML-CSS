@@ -57,7 +57,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -100,7 +100,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -450,6 +450,9 @@ main .search .search-btn {
 }
 main .search .search-btn:hover {
   background: #d35266;
+}
+main .search .description .card-text {
+  margin-bottom: 0.5vh !important;
 }
 main .arrows {
   right: 0;
