@@ -337,6 +337,10 @@ template {
   display: none;
 }
 
+.hide {
+  overflow: hidden;
+}
+
 .fs-1 {
   font-size: 1rem;
 }
