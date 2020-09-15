@@ -4,8 +4,11 @@
 
 > Made as the capstone project for the HTML/CSS module in the Microverse curriculum as a practice for web design and development with Sass and Bootstrap.
 
-
+Main page
 ![screenshot](./screenshot.png)
+
+Search page
+![screenshot](./screenshot2.png)
 
 
 ## Built With
@@ -39,8 +42,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Inspired on the Newsweek web site.
-https://www.newsweek.com/
+- Inspired on the Mohammed Awad ZATTIX design
+• https://www.behance.net/gallery/24796463/ZATTIX
 
 ## 📝 License
 
