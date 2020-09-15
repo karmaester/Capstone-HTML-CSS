@@ -397,6 +397,10 @@ template {
   color: #888;
 }
 
+.my-dark {
+  color: #383838;
+}
+
 .bg-my-dark {
   background: #383838;
 }
@@ -455,8 +459,16 @@ main .search .search-btn {
 main .search .search-btn:hover {
   background: #d35266;
 }
-main .search .description .card-text {
-  margin-bottom: 0.5vh !important;
+main .search .card-text {
+  margin-bottom: 0.5vw !important;
+}
+main .hot-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 8rem;
+  padding: 8px;
+  border: 2px solid;
 }
 main .arrows {
   right: 0;
