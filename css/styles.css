@@ -688,6 +688,40 @@ template {
   background: #eff0f0;
 }
 
+.bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-16 {
+  background-image: url("../images/2020-09-1016.png");
+}
+
+.img-20 {
+  background-image: url("../images/2020-09-1020.png");
+}
+
+.img-16 {
+  background-image: url("../images/2020-09-1016.png");
+}
+
+.img-16 {
+  background-image: url("../images/2020-09-1016.png");
+}
+
+.img-16 {
+  background-image: url("../images/2020-09-1016.png");
+}
+
+.img-16 {
+  background-image: url("../images/2020-09-1016.png");
+}
+
+.img-16 {
+  background-image: url("../images/2020-09-1016.png");
+}
+
 .hide {
   overflow: hidden;
 }
