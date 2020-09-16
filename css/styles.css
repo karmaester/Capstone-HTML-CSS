@@ -702,24 +702,16 @@ template {
   background-image: url("../images/2020-09-1020.png");
 }
 
-.img-16 {
-  background-image: url("../images/2020-09-1016.png");
+.img-18 {
+  background-image: url("../images/2020-09-1018.png");
 }
 
-.img-16 {
-  background-image: url("../images/2020-09-1016.png");
+.img-19 {
+  background-image: url("../images/2020-09-1019.png");
 }
 
-.img-16 {
-  background-image: url("../images/2020-09-1016.png");
-}
-
-.img-16 {
-  background-image: url("../images/2020-09-1016.png");
-}
-
-.img-16 {
-  background-image: url("../images/2020-09-1016.png");
+.img-28 {
+  background-image: url("../images/2020-09-1028.png");
 }
 
 .hide {
@@ -907,6 +899,13 @@ footer .footer-logo {
   .w-md-75 {
     width: 75%;
   }
+}
+.img-8 {
+  background-image: url("../images/2020-09-148.png");
+}
+
+.img-16 {
+  background-image: url("../images/2020-09-1016.png");
 }
 
 /*# sourceMappingURL=styles.css.map */
