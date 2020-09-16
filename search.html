@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
     <link
+      href="#"
+      resource="#"
       rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css"
     />
     <link
@@ -59,7 +61,7 @@
             <li class="d-flex w-35 xs-center sm-between">
               <a
                 class="d-flex justify-content-between align-items-center my-gray"
-                href="index.html"
+                href="search.html"
                 ><svg
                   width="1em"
                   height="1em"
@@ -96,7 +98,7 @@
               >
             </li>
             <li>
-              <button href="#" class="bg-redish text-white rounded">
+              <button type="button" class="bg-redish text-white rounded">
                 Search
               </button>
             </li>
@@ -124,41 +126,12 @@
       </nav>
     </header>
     <main>
-      <div class="w-100 d-block vh-40 relative hide">
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./images/cover-1.png"
-                class="d-block w-100 vh-40"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/cover-2.png"
-                class="d-block w-100 vh-40"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/cover-3.png"
-                class="d-block w-100 vh-40"
-                alt="..."
-              />
-            </div>
-          </div>
-        </div>
-        <div class="w-100 vh-40 cover absolute">
-          <div class="logo-main w-100 d-flex justify-content-center">
+      <div class="cover-1 bg">
+        <div class="w-100 cover relative">
+          <div class="logo-main w-100 d-flex justify-content-center p-4">
             <img src="./images/logopngareparellena.png" alt="..." />
           </div>
-          <div class="search w-100 d-flex justify-content-center">
+          <div class="search w-100 d-flex justify-content-center p-4">
             <form class="d-flex w-65 justify-content-around" action="...">
               <select class="form-control rounded-0 w-25 m-1">
                 <option> Puerto Montt</option>
@@ -173,10 +146,7 @@
                 type="text"
                 placeholder="Quiero comer..."
               />
-              <button
-                href="search.html"
-                class="my-gray bg-my-dark search-btn m-1"
-              >
+              <button type="button" class="my-gray bg-my-dark search-btn m-1">
                 Search
               </button>
             </form>
@@ -193,7 +163,6 @@
               <input
                 class="form-check-input"
                 type="checkbox"
-                id="inlineCheckbox1"
                 value="option1"
               />
               <label class="form-check-label" for="inlineCheckbox1">1</label>
@@ -202,7 +171,6 @@
               <input
                 class="form-check-input"
                 type="checkbox"
-                id="inlineCheckbox2"
                 value="option2"
               />
               <label class="form-check-label" for="inlineCheckbox2">2</label>
@@ -211,7 +179,6 @@
               <input
                 class="form-check-input"
                 type="checkbox"
-                id="inlineCheckbox3"
                 value="option3"
               />
               <label class="form-check-label" for="inlineCheckbox3">3 </label>
