@@ -790,9 +790,6 @@ body a:hover {
   color: white;
 }
 
-header {
-  height: 8vh;
-}
 header .logo-header img {
   width: 30vh;
 }
@@ -904,8 +901,8 @@ footer .footer-logo {
   background-image: url("../images/2020-09-148.png");
 }
 
-.img-16 {
-  background-image: url("../images/2020-09-1016.png");
+.cover-1 {
+  background-image: url("../images/cover-1.png");
 }
 
 /*# sourceMappingURL=styles.css.map */
