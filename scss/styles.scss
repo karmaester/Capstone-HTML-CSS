@@ -89,7 +89,7 @@ body {
 
 header {
   .logo-header img {
-    width: 30vh;
+    width: 10rem;
   }
 
   .left {
@@ -130,7 +130,7 @@ main {
     left: 0;
 
     .logo-main img {
-      width: 30vh;
+      width: 14rem;
       margin-top: 2vh;
     }
   }
@@ -139,7 +139,7 @@ main {
     margin-top: 3vh;
 
     .search-btn {
-      width: 15vh;
+      width: 8rem;
       border: 2px solid $dark;
       background: $dark;
 
@@ -166,7 +166,6 @@ main {
     right: 0;
     bottom: 0;
     width: 5rem;
-    height: 5vh;
     font-size: 2rem;
   }
 
@@ -202,11 +201,28 @@ footer {
   .xs-center {
     justify-content: center;
   }
+
+  .w-sm-100 {
+    width: 100% !important;
+  }
+
+  .search form {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (min-width: 768px) {
   .sm-between {
     justify-content: space-between;
+  }
+
+  .w-md-50 {
+    width: 50% !important;
+  }
+
+  .w-md-25 {
+    width: 25% !important;
   }
 }
 

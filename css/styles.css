@@ -791,7 +791,7 @@ body a:hover {
 }
 
 header .logo-header img {
-  width: 30vh;
+  width: 10rem;
 }
 header .left {
   padding: 0 3vw 0;
@@ -819,14 +819,14 @@ main .cover {
   left: 0;
 }
 main .cover .logo-main img {
-  width: 30vh;
+  width: 14rem;
   margin-top: 2vh;
 }
 main .search {
   margin-top: 3vh;
 }
 main .search .search-btn {
-  width: 15vh;
+  width: 8rem;
   border: 2px solid #383838;
   background: #383838;
 }
@@ -848,7 +848,6 @@ main .arrows {
   right: 0;
   bottom: 0;
   width: 5rem;
-  height: 5vh;
   font-size: 2rem;
 }
 main .arrow {
@@ -877,10 +876,27 @@ footer .footer-logo {
   .xs-center {
     justify-content: center;
   }
+
+  .w-sm-100 {
+    width: 100% !important;
+  }
+
+  .search form {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (min-width: 768px) {
   .sm-between {
     justify-content: space-between;
+  }
+
+  .w-md-50 {
+    width: 50% !important;
+  }
+
+  .w-md-25 {
+    width: 25% !important;
   }
 }
 @media (max-width: 1023px) {
