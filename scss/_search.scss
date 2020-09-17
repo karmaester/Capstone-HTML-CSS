@@ -1,0 +1,48 @@
+@import "_reset";
+
+//Variables
+
+$dark: #383838;
+$gray: #888;
+$redish: #d35266;
+$beige: #eff0f0;
+
+.margin-sides-auto {
+  margin: 18px auto;
+}
+
+.h-15 {
+  height: 15px;
+}
+
+.search-section {
+  background: $beige;
+}
+
+// Background images
+
+.bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-16 {
+  background-image: url("../images/2020-09-1016.png");
+}
+
+.img-20 {
+  background-image: url("../images/2020-09-1020.png");
+}
+
+.img-18 {
+  background-image: url("../images/2020-09-1018.png");
+}
+
+.img-19 {
+  background-image: url("../images/2020-09-1019.png");
+}
+
+.img-28 {
+  background-image: url("../images/2020-09-1028.png");
+}
