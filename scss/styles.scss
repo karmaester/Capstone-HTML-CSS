@@ -120,12 +120,13 @@ header {
 main {
   .cover {
     background: rgb(0, 0, 0);
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 0.5301470930168943) 17%,
-      rgba(8, 8, 15, 0.5553571770505077) 99%
-    );
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.5301470930168943) 17%,
+        rgba(8, 8, 15, 0.5553571770505077) 99%
+      );
     top: 0;
     left: 0;
 
